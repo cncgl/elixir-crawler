@@ -1,0 +1,872 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>Releases · jquery/jquery · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="jquery/jquery" name="twitter:title" /><meta content="jquery - jQuery JavaScript Library" name="twitter:description" /><meta content="https://avatars0.githubusercontent.com/u/70142?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars0.githubusercontent.com/u/70142?v=3&amp;s=400" property="og:image" /><meta content="jquery/jquery" property="og:title" /><meta content="https://github.com/jquery/jquery" property="og:url" /><meta content="jquery - jQuery JavaScript Library" property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_releases" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="B4337E0E:6922:21426DAF:567CEE99" name="octolytics-dimension-request_id" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/releases/index" data-pjax-transient="true" name="analytics-location" />
+<meta content="Rails, view, releases#index" data-pjax-transient="true" name="analytics-event" />
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+        <meta name="expected-hostname" content="github.com">
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <meta content="e849b7a813ee7e5b3b3b19ceb0213344861ae83f" name="form-nonce" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-30a3e5f6d8007107fb2777570c5b0b6d913bff10fb6e2a3517c864e9a51848b2.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2-09d3479a6f177b9459ceea3c6a140846ac36a8169d98ce359eda5e5c3ee25865.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="32652f41ab070b80d4f5a929f89fe83e">
+
+        <link href="https://github.com/jquery/jquery/releases.atom" rel="alternate" title="jquery Release Notes" type="application/atom+xml" />
+  <link href="https://github.com/jquery/jquery/tags.atom" rel="alternate" title="jquery Tags" type="application/atom+xml" />
+
+  <meta name="description" content="jquery - jQuery JavaScript Library">
+  <meta name="go-import" content="github.com/jquery/jquery git https://github.com/jquery/jquery.git">
+
+  <meta content="70142" name="octolytics-dimension-user_id" /><meta content="jquery" name="octolytics-dimension-user_login" /><meta content="167174" name="octolytics-dimension-repository_id" /><meta content="jquery/jquery" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="167174" name="octolytics-dimension-repository_network_root_id" /><meta content="jquery/jquery" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/jquery/jquery/commits/master.atom" rel="alternate" title="Recent Commits to jquery:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out   env-production  vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+      
+      <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Fjquery%2Fjquery%2Freleases" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/jquery/jquery/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/jquery/jquery/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      aria-label="Search this repository"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/pricing" data-ga-click="(Logged out) Header, go to pricing, text:pricing">Pricing</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+      <div id="js-flash-container">
+</div>
+
+
+    <div role="main" class="main-content">
+        <div itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-repo-pjax-container" class="context-loader-container js-repo-nav-next" data-pjax-container>
+      
+<div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+  <div class="container repohead-details-container">
+
+    
+
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Fjquery%2Fjquery"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/jquery/jquery/watchers">
+    3,093
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fjquery%2Fjquery"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star "></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/jquery/jquery/stargazers">
+      37,284
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fjquery%2Fjquery"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked "></span>
+        Fork
+      </a>
+
+    <a href="/jquery/jquery/network" class="social-count">
+      9,707
+    </a>
+  </li>
+</ul>
+
+    <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public ">
+  <span class="octicon octicon-repo "></span>
+  <span class="author"><a href="/jquery" class="url fn" itemprop="url" rel="author"><span itemprop="title">jquery</span></a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong><a href="/jquery/jquery" data-pjax="#js-repo-pjax-container">jquery</a></strong>
+
+  <span class="page-context-loader">
+    <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+  </span>
+
+</h1>
+
+  </div>
+  <div class="container">
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <a href="/jquery/jquery" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /jquery/jquery">
+    <span class="octicon octicon-code "></span>
+    Code
+</a>
+    <a href="/jquery/jquery/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /jquery/jquery/issues">
+      <span class="octicon octicon-issue-opened "></span>
+      Issues
+      <span class="counter">68</span>
+</a>
+  <a href="/jquery/jquery/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /jquery/jquery/pulls">
+    <span class="octicon octicon-git-pull-request "></span>
+    Pull requests
+    <span class="counter">8</span>
+</a>
+    <a href="/jquery/jquery/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /jquery/jquery/wiki">
+      <span class="octicon octicon-book "></span>
+      Wiki
+</a>
+  <a href="/jquery/jquery/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /jquery/jquery/pulse">
+    <span class="octicon octicon-pulse "></span>
+    Pulse
+</a>
+  <a href="/jquery/jquery/graphs" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors /jquery/jquery/graphs">
+    <span class="octicon octicon-graph "></span>
+    Graphs
+</a>
+
+</nav>
+
+  </div>
+</div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+
+<div class="subnav" data-pjax>
+  <div class="subnav-links left" role="navigation">
+  <a href="/jquery/jquery/releases" aria-selected="true" class="js-selected-navigation-item selected subnav-item" data-selected-links="repo_releases /jquery/jquery/releases">Releases</a>
+  <a href="/jquery/jquery/tags" class="js-selected-navigation-item subnav-item" data-selected-links="repo_tags /jquery/jquery/tags">Tags</a>
+</div>
+
+
+  <div class="right">
+  </div>
+</div>
+
+<div class="release-timeline">
+      <ul class="release-timeline-tags">
+          <li>
+            
+<span class="date">
+    <time datetime="2015-07-13T19:25:49Z" is="relative-time">Jul 13, 2015</time>
+
+  <span class="octicon octicon-tag"></span>
+</span>
+
+<div class="main">
+  
+
+<div class="tag-info commit js-details-container">
+  <h3>
+    <a href="/jquery/jquery/releases/tag/3.0.0-alpha1">
+      <span class="tag-name">3.0.0-alpha1</span>
+    </a>
+    
+  </h3>
+
+  <div class="commit-desc">
+    <pre class="text-small text-muted">3.0.0-alpha1
+</pre>
+  </div>
+
+  <ul class="tag-references">
+    <li class="commit">
+      <a href="/jquery/jquery/commit/f9846aec1dadc4bc80ca2df47d3ecc1b9f7a4f84">
+        <span class="octicon octicon-git-commit"></span>
+        f9846ae
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/3.0.0-alpha1.zip" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        zip
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/3.0.0-alpha1.tar.gz" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        tar.gz
+      </a>
+    </li>
+
+
+  </ul>
+</div>
+
+</div>
+
+          </li>
+          <li>
+            
+<span class="date">
+    <time datetime="2015-07-13T19:21:06Z" is="relative-time">Jul 13, 2015</time>
+
+  <span class="octicon octicon-tag"></span>
+</span>
+
+<div class="main">
+  
+
+<div class="tag-info commit js-details-container">
+  <h3>
+    <a href="/jquery/jquery/releases/tag/3.0.0-alpha1%2Bcompat">
+      <span class="tag-name">3.0.0-alpha1+compat</span>
+    </a>
+    
+  </h3>
+
+  <div class="commit-desc">
+    <pre class="text-small text-muted">3.0.0-alpha1+compat
+</pre>
+  </div>
+
+  <ul class="tag-references">
+    <li class="commit">
+      <a href="/jquery/jquery/commit/ef64d82ec3d1717478979cba986d896aa0dda617">
+        <span class="octicon octicon-git-commit"></span>
+        ef64d82
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/3.0.0-alpha1+compat.zip" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        zip
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/3.0.0-alpha1+compat.tar.gz" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        tar.gz
+      </a>
+    </li>
+
+
+  </ul>
+</div>
+
+</div>
+
+          </li>
+          <li>
+            
+<span class="date">
+    <time datetime="2015-04-28T16:20:21Z" is="relative-time">Apr 28, 2015</time>
+
+  <span class="octicon octicon-tag"></span>
+</span>
+
+<div class="main">
+  
+
+<div class="tag-info commit js-details-container">
+  <h3>
+    <a href="/jquery/jquery/releases/tag/1.11.3">
+      <span class="tag-name">1.11.3</span>
+    </a>
+    
+  </h3>
+
+  <div class="commit-desc">
+    <pre class="text-small text-muted">1.11.3
+</pre>
+  </div>
+
+  <ul class="tag-references">
+    <li class="commit">
+      <a href="/jquery/jquery/commit/1472290917f17af05e98007136096784f9051fab">
+        <span class="octicon octicon-git-commit"></span>
+        1472290
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/1.11.3.zip" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        zip
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/1.11.3.tar.gz" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        tar.gz
+      </a>
+    </li>
+
+
+  </ul>
+</div>
+
+</div>
+
+          </li>
+          <li>
+            
+<span class="date">
+    <time datetime="2015-04-28T16:03:04Z" is="relative-time">Apr 28, 2015</time>
+
+  <span class="octicon octicon-tag"></span>
+</span>
+
+<div class="main">
+  
+
+<div class="tag-info commit js-details-container">
+  <h3>
+    <a href="/jquery/jquery/releases/tag/2.1.4">
+      <span class="tag-name">2.1.4</span>
+    </a>
+    
+  </h3>
+
+  <div class="commit-desc">
+    <pre class="text-small text-muted">2.1.4
+</pre>
+  </div>
+
+  <ul class="tag-references">
+    <li class="commit">
+      <a href="/jquery/jquery/commit/7751e69b615c6eca6f783a81e292a55725af6b85">
+        <span class="octicon octicon-git-commit"></span>
+        7751e69
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/2.1.4.zip" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        zip
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/2.1.4.tar.gz" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        tar.gz
+      </a>
+    </li>
+
+
+  </ul>
+</div>
+
+</div>
+
+          </li>
+          <li>
+            
+<span class="date">
+    <time datetime="2014-12-18T15:11:31Z" is="relative-time">Dec 18, 2014</time>
+
+  <span class="octicon octicon-tag"></span>
+</span>
+
+<div class="main">
+  
+
+<div class="tag-info commit js-details-container">
+  <h3>
+    <a href="/jquery/jquery/releases/tag/2.1.3">
+      <span class="tag-name">2.1.3</span>
+    </a>
+    
+  </h3>
+
+  <div class="commit-desc">
+    <pre class="text-small text-muted">2.1.3
+</pre>
+  </div>
+
+  <ul class="tag-references">
+    <li class="commit">
+      <a href="/jquery/jquery/commit/8f2a9d9272d6ed7f32d3a484740ab342c02541e0">
+        <span class="octicon octicon-git-commit"></span>
+        8f2a9d9
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/2.1.3.zip" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        zip
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/2.1.3.tar.gz" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        tar.gz
+      </a>
+    </li>
+
+
+  </ul>
+</div>
+
+</div>
+
+          </li>
+          <li>
+            
+<span class="date">
+    <time datetime="2014-12-17T15:28:04Z" is="relative-time">Dec 17, 2014</time>
+
+  <span class="octicon octicon-tag"></span>
+</span>
+
+<div class="main">
+  
+
+<div class="tag-info commit js-details-container">
+  <h3>
+    <a href="/jquery/jquery/releases/tag/1.11.2">
+      <span class="tag-name">1.11.2</span>
+    </a>
+    
+  </h3>
+
+  <div class="commit-desc">
+    <pre class="text-small text-muted">1.11.2
+</pre>
+  </div>
+
+  <ul class="tag-references">
+    <li class="commit">
+      <a href="/jquery/jquery/commit/9690801db01709bfbff5f977d07fb7cc14472908">
+        <span class="octicon octicon-git-commit"></span>
+        9690801
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/1.11.2.zip" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        zip
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/1.11.2.tar.gz" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        tar.gz
+      </a>
+    </li>
+
+
+  </ul>
+</div>
+
+</div>
+
+          </li>
+          <li>
+            
+<span class="date">
+    <time datetime="2014-12-17T14:02:02Z" is="relative-time">Dec 17, 2014</time>
+
+  <span class="octicon octicon-tag"></span>
+</span>
+
+<div class="main">
+  
+
+<div class="tag-info commit js-details-container">
+  <h3>
+    <a href="/jquery/jquery/releases/tag/2.1.2">
+      <span class="tag-name">2.1.2</span>
+    </a>
+    
+  </h3>
+
+  <div class="commit-desc">
+    <pre class="text-small text-muted">2.1.2
+</pre>
+  </div>
+
+  <ul class="tag-references">
+    <li class="commit">
+      <a href="/jquery/jquery/commit/a04f5ff9795fd6292117563623db44cf3f875868">
+        <span class="octicon octicon-git-commit"></span>
+        a04f5ff
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/2.1.2.zip" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        zip
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/2.1.2.tar.gz" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        tar.gz
+      </a>
+    </li>
+
+
+  </ul>
+</div>
+
+</div>
+
+          </li>
+          <li>
+            
+<span class="date">
+    <time datetime="2014-05-01T17:42:26Z" is="relative-time">May 1, 2014</time>
+
+  <span class="octicon octicon-tag"></span>
+</span>
+
+<div class="main">
+  
+
+<div class="tag-info commit js-details-container">
+  <h3>
+    <a href="/jquery/jquery/releases/tag/1.11.1">
+      <span class="tag-name">1.11.1</span>
+    </a>
+    
+  </h3>
+
+  <div class="commit-desc">
+    <pre class="text-small text-muted">1.11.1
+</pre>
+  </div>
+
+  <ul class="tag-references">
+    <li class="commit">
+      <a href="/jquery/jquery/commit/0d5ec2d8ac94a419ee47a39319c43ff9a7326b50">
+        <span class="octicon octicon-git-commit"></span>
+        0d5ec2d
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/1.11.1.zip" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        zip
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/1.11.1.tar.gz" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        tar.gz
+      </a>
+    </li>
+
+
+  </ul>
+</div>
+
+</div>
+
+          </li>
+          <li>
+            
+<span class="date">
+    <time datetime="2014-05-01T17:11:50Z" is="relative-time">May 1, 2014</time>
+
+  <span class="octicon octicon-tag"></span>
+</span>
+
+<div class="main">
+  
+
+<div class="tag-info commit js-details-container">
+  <h3>
+    <a href="/jquery/jquery/releases/tag/2.1.1">
+      <span class="tag-name">2.1.1</span>
+    </a>
+    
+  </h3>
+
+  <div class="commit-desc">
+    <pre class="text-small text-muted">2.1.1
+</pre>
+  </div>
+
+  <ul class="tag-references">
+    <li class="commit">
+      <a href="/jquery/jquery/commit/4dec426aa2a6cbabb1b064319ba7c272d594a688">
+        <span class="octicon octicon-git-commit"></span>
+        4dec426
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/2.1.1.zip" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        zip
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/2.1.1.tar.gz" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        tar.gz
+      </a>
+    </li>
+
+
+  </ul>
+</div>
+
+</div>
+
+          </li>
+          <li>
+            
+<span class="date">
+    <time datetime="2014-04-21T20:58:37Z" is="relative-time">Apr 21, 2014</time>
+
+  <span class="octicon octicon-tag"></span>
+</span>
+
+<div class="main">
+  
+
+<div class="tag-info commit js-details-container">
+  <h3>
+    <a href="/jquery/jquery/releases/tag/1.11.1-rc2">
+      <span class="tag-name">1.11.1-rc2</span>
+    </a>
+    
+  </h3>
+
+  <div class="commit-desc">
+    <pre class="text-small text-muted">1.11.1-rc2
+</pre>
+  </div>
+
+  <ul class="tag-references">
+    <li class="commit">
+      <a href="/jquery/jquery/commit/b50c9a8d92f94f310138f4528e3a36b5336539a1">
+        <span class="octicon octicon-git-commit"></span>
+        b50c9a8
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/1.11.1-rc2.zip" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        zip
+      </a>
+    </li>
+
+    <li>
+      <a href="/jquery/jquery/archive/1.11.1-rc2.tar.gz" rel="nofollow">
+        <span class="octicon octicon-file-zip"></span>
+        tar.gz
+      </a>
+    </li>
+
+
+  </ul>
+</div>
+
+</div>
+
+          </li>
+      </ul>
+
+
+
+
+</div>
+
+<div data-pjax class="paginate-container">
+  <div class="pagination"><span class="disabled">Previous</span><a href="https://github.com/jquery/jquery/releases?after=1.11.1-rc2" rel="nofollow">Next</a></div>
+</div>
+
+  </div>
+  <div class="modal-backdrop"></div>
+</div>
+
+    </div>
+  </div>
+
+    </div>
+
+        <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://github.com/pricing" data-ga-click="Footer, go to pricing, text:pricing">Pricing</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github " title="GitHub "></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.10854s from github-fe140-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <span class="octicon octicon-x"></span>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-ef8eb4a89ee9f3c8b7613307fe589a8f5705817f7cee27bec51ce5e963234abf.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-4b6b8e7d11ebb7bce85126d3b4130c80041f2ae6d5d6ef8901a8c0c3f7cb80d2.js"></script>
+      
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <span class="octicon octicon-alert"></span>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+  </body>
+</html>
+
+
+
+type1
