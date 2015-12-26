@@ -22,10 +22,6 @@ defmodule VercheckEx do
       |> List.first
       |> Timex.DateFormat.parse("{ISOz}")
 
-    # IO.puts body
-    # IO.puts Floki.find(body, "span.tag-name")
-    IO.puts type
-
     {_,_,x} =
       if (type == :type1) do # バージョン番号を取得
           body
@@ -60,6 +56,7 @@ defmodule VercheckEx do
     end
     IO.puts(l)
   end
+
 end
 
 urls = [
@@ -72,7 +69,7 @@ urls = [
   {"https://github.com/riot/riot/releases", :type1},
   {"https://github.com/atom/atom/releases", :type2},
   {"https://github.com/Microsoft/TypeScript/releases", :type2},
-  {"https://github.com/docker/docker/releases", :type1},
+  {"https://github.com/docker/docker/releases", :type2},
   {"https://github.com/JuliaLang/julia/releases", :type2},
   {"https://github.com/nim-lang/Nim/releases", :type1},
   {"https://github.com/elixir-lang/elixir/releases", :type2},
