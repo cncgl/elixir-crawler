@@ -14,11 +14,11 @@ defmodule Finance do
           |> elem(2)
 
     IO.inspect jpy
-    [f, m, l] = jpy
+    [f, m | l] = jpy
     IO.puts f
     IO.puts List.first(elem(m, 2))
-    IO.puts l
-    IO.puts f <> List.first(elem(m, 2)) <> l
+    IO.inspect l
+    IO.puts f <> List.first(elem(m, 2)) <> (if length(l) > 0 do List.first(l) else "" end)
   end
 
 
