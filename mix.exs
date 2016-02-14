@@ -29,6 +29,7 @@ defmodule ElixirScraping1.Mixfile do
   defp deps do
     [ {:httpoison, "~> 0.8.0"},
       {:floki, "~> 0.7.1"},
-      {:timex, "~> 0.19.5"}]
+      {:timex, "~> 0.19.5"},
+      {:inch_ex, only: :docs}]
   end
 end
