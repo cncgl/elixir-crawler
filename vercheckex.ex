@@ -57,29 +57,32 @@ defmodule VercheckEx do
     IO.puts(l)
   end
 
+  def main(args) do
+
+    urls = [
+      {"https://github.com/jquery/jquery/releases", :type1},
+      {"https://github.com/angular/angular/releases", :type1},
+      {"https://github.com/facebook/react/releases", :type2},
+      {"https://github.com/PuerkitoBio/goquery/releases", :type1},
+      {"https://github.com/revel/revel/releases", :type2},
+      {"https://github.com/lhorie/mithril.js/releases", :type1},
+      {"https://github.com/riot/riot/releases", :type1},
+      {"https://github.com/atom/atom/releases", :type2},
+      {"https://github.com/Microsoft/TypeScript/releases", :type2},
+      {"https://github.com/docker/docker/releases", :type2},
+      {"https://github.com/JuliaLang/julia/releases", :type2},
+      {"https://github.com/nim-lang/Nim/releases", :type1},
+      {"https://github.com/elixir-lang/elixir/releases", :type2},
+      {"https://github.com/philss/floki/releases", :type1},
+      {"https://github.com/takscape/elixir-array/releases", :type2},
+    ]
+
+    # 逐次呼出し→結果出力                                                                                                                                         HTTPoison.start
+    Enum.each(urls, fn(i) ->
+      IO.puts i
+      {u,t} = i
+      res  = VercheckEx.fetch_content(u,t)
+      VercheckEx.put_a_formatted_line res
+    end)
+  end
 end
-
-urls = [
-  {"https://github.com/jquery/jquery/releases", :type1},
-  {"https://github.com/angular/angular/releases", :type1},
-  {"https://github.com/facebook/react/releases", :type2},
-  {"https://github.com/PuerkitoBio/goquery/releases", :type1},
-  {"https://github.com/revel/revel/releases", :type2},
-  {"https://github.com/lhorie/mithril.js/releases", :type1},
-  {"https://github.com/riot/riot/releases", :type1},
-  {"https://github.com/atom/atom/releases", :type2},
-  {"https://github.com/Microsoft/TypeScript/releases", :type2},
-  {"https://github.com/docker/docker/releases", :type2},
-  {"https://github.com/JuliaLang/julia/releases", :type2},
-  {"https://github.com/nim-lang/Nim/releases", :type1},
-  {"https://github.com/elixir-lang/elixir/releases", :type2},
-  {"https://github.com/philss/floki/releases", :type1},
-  {"https://github.com/takscape/elixir-array/releases", :type2},
-]
-
-# 逐次呼出し→結果出力                                                                                                                                         HTTPoison.start
-Enum.each(urls, fn(i) ->
-  {u,t} = i
-  res  = VercheckEx.fetch_content(u,t)
-  VercheckEx.put_a_formatted_line res
-end)
